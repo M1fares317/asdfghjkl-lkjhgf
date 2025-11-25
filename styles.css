@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+.product-card {
+    width: 400px;
+    background-color: #e8e8ea;
+    padding: 30px;
+    border: 2px solid #03057c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-info p {
+    font-size: 28px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.image-container img {
+    width: 200px;
+    border: 2px solid #b0b0b2;
+    margin-left: 30px;
+    height: auto;
+    display: block;
+}
